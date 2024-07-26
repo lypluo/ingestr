@@ -6,7 +6,7 @@
 #' global files or remote servers, \code{sitename} is simply used as a label and any string can
 #' be provided. When data is extraced from site-specific files (e.g. \code{source = "fluxnet"}),
 #' then \code{sitename} is used to identify the file from which data is read.
-#' @param source A character used as identifiyer for the type of data source
+#' @param source A character used as identifier for the type of data source
 #' (e.g., \code{"fluxnet"}). See vignette for a full description of available options.
 #' @param getvars A named list of characters specifying the variable names in
 #' the original source dataset and the variable names in the ingested data frame. Use, e.g.,
